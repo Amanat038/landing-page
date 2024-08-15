@@ -1,0 +1,43 @@
+/* Custom Navbar Styling */
+.navbar-custom {
+ 
+  transition: background-color 0.3s ease;
+}
+
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f8f9fa;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.navbar-logo:hover {
+  color: #ff6f61;
+  transform: scale(1.1);
+}
+
+
+.nav-link-custom {
+  color: #f8f9fa !important;
+  margin-left: 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.nav-link-custom:hover {
+  color: #ff6f61 !important;
+  transform: scale(1.1);
+}
+
+
+.navbar-custom.sticky {
+  background-color: #fbd6af;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}

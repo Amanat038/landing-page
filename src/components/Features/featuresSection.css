@@ -1,0 +1,40 @@
+/* General container for the section */
+.features-section {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #fdfbf8;
+}
+
+
+.feature-item {
+  opacity: 0;
+  transform: translateY(30px); 
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+
+.animate .feature-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.feature-1 {
+  transition-delay: 0.2s;
+  transform: translateX(-30px); 
+}
+
+.feature-2 {
+  transition-delay: 0.4s;
+  transform: translateY(30px); 
+}
+
+.feature-3 {
+  transition-delay: 0.6s;
+  transform: translateX(30px);
+}
+
+
+.feature-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
